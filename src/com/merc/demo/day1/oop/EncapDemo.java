@@ -1,40 +1,31 @@
 package com.merc.demo.day1.oop;
 
-
 class Body {
-	
+
 	int muscles;
-	
+
 	void workout() {
 
-	}	
-	
-	
+	}
+
 }
 
-
 class Bank {
-	
-	// fields - characteristics 
+
+	// fields - characteristics
 	int accNo;
 	private double balance;
-	public int getAccNo() {
-		return accNo;
-	}
-	public void setAccNo(int accNo) {
-		this.accNo = accNo;
-	}
+
 	public double getBalance() {
 		return balance;
 	}
+
 	public void setBalance(double balance) {
 		this.balance = balance;
 	}
-	
-	// methods - functionalities 
-	
-	
-	
+
+	// methods - functionalities
+
 }
 
 public class EncapDemo {
