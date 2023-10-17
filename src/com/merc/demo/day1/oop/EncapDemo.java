@@ -1,15 +1,5 @@
 package com.merc.demo.day1.oop;
 
-class Body {
-
-	int muscles;
-
-	void workout() {
-
-	}
-
-}
-
 class Bank {
 
 	// fields - characteristics
