@@ -3,13 +3,11 @@ package com.merc.demo.day1;
 public class VarArgsDemo {
 
 	static void addNums(int... args) {
-
 		int sum = 0;
 		for (int i : args) {
 			sum += i;
 		}
 		System.out.println(sum);
-
 	}
 
 	public static void main(String[] args) {

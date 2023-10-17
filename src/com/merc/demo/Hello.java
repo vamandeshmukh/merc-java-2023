@@ -3,7 +3,7 @@ package com.merc.demo;
 public class Hello {
 
 	public static void main(String[] args) {
-		
+
 		int eid = 101;
 		String firstName = "Sonu";
 		double salary = 90000;
@@ -11,6 +11,8 @@ public class Hello {
 		System.out.println(eid);
 		System.out.println(firstName);
 		System.out.println(salary);
+
+		Hello obj = new Hello();
 
 	}
 
@@ -53,10 +55,19 @@ public class Hello {
 // Java EE - Enterprise edition - (advanced java)  
 // Java ME - Micro edition - firmware development 
 
+// OOP - 
 
+// class and object 
+// inheritance 
+// abstraction 
+// encapsulation 
+// polymorphism
 
-
-
+//polymorphism
+// method overloading - 
+// multiple methods with the same name but different arguments 
+// method overriding - 
+// method in a superclass, "rewritten" in  a subclass  
 
 
 
