@@ -18,7 +18,6 @@ public class ControlDemo {
 		case 3:
 			System.out.println("Three");
 			break;
-
 		default:
 			System.out.println("Other");
 			break;
