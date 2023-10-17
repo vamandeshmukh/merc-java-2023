@@ -4,8 +4,6 @@ public class Hello {
 
 	public static void main(String[] args) {
 		
-//		axios.get()
-
 		int eid = 101;
 		String firstName = "Sonu";
 		double salary = 90000;
