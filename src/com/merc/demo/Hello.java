@@ -63,15 +63,43 @@ public class Hello {
 // encapsulation 
 // polymorphism
 
-//polymorphism
+// polymorphism
 // method overloading - 
 // multiple methods with the same name but different arguments 
 // method overriding - 
 // method in a superclass, "rewritten" in  a subclass  
 
+// encapsulation 
+// private fields - no access outside the class 
+// public methods - access outside the class 
+
+// abstraction - 
+// minimum necessary representation 
+// hide the implementation details only show the functionality 
 
 
+//class Employee {
+//	
+//	// fields 
+//	// live body, blood, heart, brain, skin, hands, ...  
+//	
+//	// methods 
+//	
+//}
 
+// inheritance 
+// access ancestors' properties 
+
+// access modifiers / access specifiers 
+
+// public - accessible everywhere in the app 
+// protected - accessible only in subclasses and within the package 
+// <package-private> default - accessible only within the package
+// private - accessible only within the class
+
+// static and nonstatic 
+// static - belong to class - accessible with ClassName.name
+// nonstatic -  belong to object - accessible with objectName.name
 
 
 
