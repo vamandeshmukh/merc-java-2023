@@ -51,5 +51,7 @@ public class Employee {
 	public String toString() {
 		return "Employee [eid=" + eid + ", firstName=" + firstName + ", salary=" + salary + "]";
 	}
+	
+	// override equals and hashcode methods 
 
 }
