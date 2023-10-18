@@ -1,6 +1,5 @@
 package com.merc.demo.day1.oop;
 
-
 public class ClassDemo {
 	
 	public static void main(String[] args) {
