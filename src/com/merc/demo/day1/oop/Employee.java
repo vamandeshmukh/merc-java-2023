@@ -1,5 +1,7 @@
 package com.merc.demo.day1.oop;
 
+import java.util.Objects;
+
 public class Employee {
 
 	private int eid;
@@ -51,8 +53,25 @@ public class Employee {
 	public String toString() {
 		return "Employee [eid=" + eid + ", firstName=" + firstName + ", salary=" + salary + "]";
 	}
-	
-	// override equals and hashcode methods 
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(eid, firstName, salary);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Employee other = (Employee) obj;
+		return eid == other.eid && Objects.equals(firstName, other.firstName)
+				&& Double.doubleToLongBits(salary) == Double.doubleToLongBits(other.salary);
+	}
+
+	// override equals and hashcode methods
 
 }
-
