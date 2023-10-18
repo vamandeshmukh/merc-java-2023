@@ -8,7 +8,7 @@ public class RandomDemo {
 		Random random = new Random();
 		for (int i = 1; i <= 10; i++) {
 //			int num = random.nextInt();
-			int num = random.nextInt(100); // specify range 0 - 100
+			int num = random.nextInt(100); // specify range 0 - 100 
 			System.out.println(num);
 		}
 	}
