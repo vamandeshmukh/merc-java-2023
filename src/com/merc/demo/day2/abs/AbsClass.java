@@ -7,11 +7,11 @@ interface SomeInterface {
 	public abstract void absMethod2();
 
 	public static void staticMethod() {
-		// code
+		System.out.println("static method");
 	}
 
 	public default void defaultMethod() {
-		// code
+		System.out.println("default method");
 	}
 }
 
