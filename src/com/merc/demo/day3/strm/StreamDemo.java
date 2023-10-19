@@ -14,9 +14,9 @@ public class StreamDemo {
 		List<Blog> blogList = new ArrayList<>();
 
 		blogList.add(new Blog(22, "Abc", "Xre qwer"));
-		blogList.add(new Blog(11, "Def", "Lash anlhf"));
-		blogList.add(new Blog(31, "Ghi", "Poer adlre"));
-		blogList.add(new Blog(25, "Sew", "Swq asdf"));
+		blogList.add(new Blog(11, "Pqr", "Lash anlhf"));
+		blogList.add(new Blog(31, "Ijk", "Poer adlre"));
+		blogList.add(new Blog(25, "Def", "Swq asdf"));
 
 		System.out.println("Iterate list elements using for each loop:");
 		for (Blog blog : blogList)
