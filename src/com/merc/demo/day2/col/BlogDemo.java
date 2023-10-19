@@ -24,7 +24,7 @@ public class BlogDemo {
 		System.out.println("Find blog based on blogId:");
 		int blogIdToSearch = 13;
 		for (Blog blog : blogList) {
-			if (blog.blogId == blogIdToSearch)
+			if (blog.getBlogId() == blogIdToSearch)
 				System.out.println(blog.toString());
 		}
 

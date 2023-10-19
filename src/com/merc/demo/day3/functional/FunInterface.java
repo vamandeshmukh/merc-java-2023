@@ -3,9 +3,9 @@ package com.merc.demo.day3.functional;
 @FunctionalInterface
 public interface FunInterface {
 
-//	public abstract void funMethod();
+	public abstract void funMethod();
 
-	public abstract void funMethod(int arg);
+//	public abstract void funMethod(int arg);
 
 //	public abstract void funMethod(int arg, int arg2);
 
