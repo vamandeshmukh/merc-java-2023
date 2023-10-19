@@ -13,10 +13,37 @@ public class FunctionalDemo {
 
 //		FunInterface obj = new FunInterface(); // Not allowed 
 
-		FunInterface obj = () -> {
+//		FunInterface obj = () -> {
+//			System.out.println("fun method implemented by lambda expression");
+//		};
+//		obj.funMethod();
+
+		FunInterface obj = abc -> {
 			System.out.println("fun method implemented by lambda expression");
 		};
-		obj.funMethod();
-	}
+		obj.funMethod(10);
 
+//		FunInterface obj = (abc, def)-> {
+//			System.out.println("fun method implemented by lambda expression");
+//		};
+//		obj.funMethod(10, 20);
+
+//		FunInterface obj = (abc, def) -> {
+//			return abc + def;
+//		};
+//		obj.funMethod(10, 20);
+
+//		FunInterface obj = (abc, def) -> abc + def;
+//		obj.funMethod(10, 20);
+	}
 }
+
+
+
+
+
+
+
+
+
+
