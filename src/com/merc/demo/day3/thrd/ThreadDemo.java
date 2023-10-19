@@ -7,6 +7,7 @@ public class ThreadDemo {
 
 	public static void main(String[] args) throws InterruptedException {
 
+//		Calc calc = new Calc("one");
 		Calc calc = new Calc();
 		calc.start();
 //		calc.join();
@@ -14,7 +15,6 @@ public class ThreadDemo {
 		calc2.start();
 		Calc calc3 = new Calc();
 		calc3.start();
-		
 
 	}
 }
