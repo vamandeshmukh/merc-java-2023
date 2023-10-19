@@ -19,7 +19,7 @@ public class FunctionalDemo {
 //		obj.funMethod();
 
 		FunInterface obj = abc -> {
-			System.out.println("fun method implemented by lambda expression");
+			System.out.println("fun method implemented by lambda expression " + abc);
 		};
 		obj.funMethod(10);
 
