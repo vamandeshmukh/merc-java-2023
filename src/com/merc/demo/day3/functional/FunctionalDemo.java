@@ -11,6 +11,8 @@ public class FunctionalDemo {
 		System.out.println("... self learning");
 		System.out.println("3. Use an abstract method in a (functional) interface by lambda expression:");
 
+//		FunInterface obj = new FunInterface(); // Not allowed 
+
 		FunInterface obj = () -> {
 			System.out.println("fun method implemented by lambda expression");
 		};
