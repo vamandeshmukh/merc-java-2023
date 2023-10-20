@@ -8,7 +8,17 @@ public class FunctionalDemo {
 		FunClass funClass = new FunClass();
 		funClass.funMethod();
 		System.out.println("2. Use an abstract method in an interface by overriding it in an anonymous inner class:");
-		System.out.println("... self learning");
+//		System.out.println("... self learning");
+
+		FunInterface obj2 = new FunInterface() {
+			@Override
+			public void funMethod() {
+				System.out.println("fun method implemented by anonymous inner class");
+			};
+		};
+
+		obj2.funMethod();
+
 		System.out.println("3. Use an abstract method in a (functional) interface by lambda expression:");
 
 //		FunInterface obj = new FunInterface(); // Not allowed 
@@ -37,13 +47,3 @@ public class FunctionalDemo {
 //		obj.funMethod(10, 20);
 	}
 }
-
-
-
-
-
-
-
-
-
-
